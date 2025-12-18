@@ -1,2 +1,2 @@
-public class EmpleadoExterno extends Empleado {
+public abstract class EmpleadoExterno extends Empleado {
 }

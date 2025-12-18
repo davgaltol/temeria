@@ -1,2 +1,2 @@
-public class Empleado {
+public abstract class Empleado {
 }
