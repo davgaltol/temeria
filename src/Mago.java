@@ -13,7 +13,7 @@ public class Mago extends EmpleadoCorte{
 
     @Override
     public void trabajar() {
-        System.out.println("El mago " + nombre + " de nivel " + nivel + "está trabajando y conjura hechizos");
+        System.out.println("El mago " + nombre + " de nivel " + nivel + " conjura hechizos");
     }
 
 }

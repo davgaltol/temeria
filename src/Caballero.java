@@ -18,6 +18,6 @@ public class Caballero extends EmpleadoCorte{
     }
     @Override
     public void trabajar() {
-        System.out.println("El caballero " + nombre + " está trabajando y patrulla las murallas con su " + arma + ".");
+        System.out.println("El caballero " + nombre + " patrulla las murallas con su " + arma + ".");
     }
 }

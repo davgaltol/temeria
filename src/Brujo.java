@@ -17,12 +17,12 @@ public class Brujo extends EmpleadoExterno{
         int monstruos=0;
         System.out.println("¿" + nombre + ", cuantos monstruos has rastreado?");
         monstruos=sc.nextInt();
-        System.out.println("El sueldo de este mes del mercenario es " + tarifa*monstruos);
+        System.out.println("El sueldo de este mes del brujo es " + tarifa*monstruos);
     }
 
     @Override
     public void trabajar() {
-        System.out.println("El brujo " + nombre + " está trabajando y medita y rastrea bestias" );
+        System.out.println("El brujo " + nombre + " medita y rastrea bestias" );
     }
 
 
