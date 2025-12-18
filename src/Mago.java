@@ -25,4 +25,5 @@ public class Mago extends EmpleadoCorte{
     public void trabajar() {
         System.out.println("El mago " + nombre + " está trabajando y conjura hechizos ");
     }
+
 }

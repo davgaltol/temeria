@@ -10,4 +10,6 @@ public abstract class EmpleadoExterno extends Empleado {
     public void trabajar() {
 
     }
+
+    public abstract void renovarContrato();
 }

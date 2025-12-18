@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Mercenario extends EmpleadoExterno{
 
     Mercenario(String nombre, int edad, double tarifa){
@@ -8,7 +10,9 @@ public class Mercenario extends EmpleadoExterno{
 
     @Override
     public void calcularSalario() {
-        System.out.println("El sueldo de este mes del mercenario es " + tarifa*30);
+        Scanner sc=new Scanner(System.in);
+        int trabajos=0;
+        System.out.println("El sueldo de este mes del mercenario es " + tarifa*trabajos);
     }
 
     @Override
@@ -16,4 +20,8 @@ public class Mercenario extends EmpleadoExterno{
         System.out.println("El mercenario " + nombre + " está trabajando y ha aceptado encargo de escolta " );
     }
 
+    @Override
+    public void renovarContrato() {
+
+    }
 }

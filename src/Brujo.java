@@ -1,3 +1,6 @@
+import java.sql.SQLOutput;
+import java.util.Scanner;
+
 public class Brujo extends EmpleadoExterno{
     String escuela;
 
@@ -10,7 +13,11 @@ public class Brujo extends EmpleadoExterno{
 
     @Override
     public void calcularSalario() {
-        System.out.println("El sueldo de este mes del mercenario es " + tarifa*30);
+        Scanner sc = new Scanner(System.in);
+        int monstruos=0;
+        System.out.println("¿Cuantos monstruos has rastreado?");
+        monstruos=sc.nextInt();
+        System.out.println("El sueldo de este mes del mercenario es " + tarifa*monstruos);
     }
 
     @Override
@@ -18,4 +25,8 @@ public class Brujo extends EmpleadoExterno{
         System.out.println("El brujo " + nombre + " está trabajando y medita y rastrea bestias" );
     }
 
+    @Override
+    public void renovarContrato() {
+
+    }
 }
