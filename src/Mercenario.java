@@ -14,7 +14,7 @@ public class Mercenario extends EmpleadoExterno{
         int dias=0;
         System.out.println("¿Cuantos días has dedicado a este encargo, " + nombre + "?");
         dias=sc.nextInt();
-        System.out.println("El sueldo de este mes del mercenario es " + tarifa*dias);
+        System.out.println("El sueldo de este mes del mercenario es " + tarifa*dias + " oros");
     }
 
     @Override

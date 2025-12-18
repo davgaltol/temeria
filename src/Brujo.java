@@ -1,4 +1,3 @@
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Brujo extends EmpleadoExterno{
@@ -17,7 +16,7 @@ public class Brujo extends EmpleadoExterno{
         int monstruos=0;
         System.out.println("¿" + nombre + ", cuantos monstruos has rastreado?");
         monstruos=sc.nextInt();
-        System.out.println("El sueldo de este mes del brujo es " + tarifa*monstruos);
+        System.out.println("El sueldo de este mes del brujo es " + tarifa*monstruos + " oros");
     }
 
     @Override

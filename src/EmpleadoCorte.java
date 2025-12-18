@@ -24,7 +24,7 @@ public abstract class EmpleadoCorte extends Empleado {
 
     @Override
     public void calcularSalario() {
-        System.out.println("El sueldo es " + (sueldoFijo) + " oros.");
+        System.out.println("El sueldo de " + nombre + " es " + (sueldoFijo) + " oros.");
     }
 
     public void setSueldoFijo(double sueldoFijo){

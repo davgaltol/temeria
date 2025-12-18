@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class Caballero extends EmpleadoCorte{
 
     String arma;
@@ -11,11 +9,6 @@ public class Caballero extends EmpleadoCorte{
         this.sueldoFijo=sueldo;
     }
 
-    @Override
-    public void calcularSalario() {
-
-        System.out.println("El sueldo es " + (sueldoFijo));
-    }
     @Override
     public void trabajar() {
         System.out.println("El caballero " + nombre + " patrulla las murallas con su " + arma + ".");
