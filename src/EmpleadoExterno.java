@@ -6,10 +6,8 @@ public abstract class EmpleadoExterno extends Empleado {
     public void calcularSalario() {
 
     }
-    @Override
-    public void trabajar() {
 
-    }
+    public void renovarContrato(){
 
-    public abstract void renovarContrato();
+    };
 }

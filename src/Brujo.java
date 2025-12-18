@@ -15,7 +15,7 @@ public class Brujo extends EmpleadoExterno{
     public void calcularSalario() {
         Scanner sc = new Scanner(System.in);
         int monstruos=0;
-        System.out.println("¿Cuantos monstruos has rastreado?");
+        System.out.println("¿" + nombre + ", cuantos monstruos has rastreado?");
         monstruos=sc.nextInt();
         System.out.println("El sueldo de este mes del mercenario es " + tarifa*monstruos);
     }
@@ -25,8 +25,5 @@ public class Brujo extends EmpleadoExterno{
         System.out.println("El brujo " + nombre + " está trabajando y medita y rastrea bestias" );
     }
 
-    @Override
-    public void renovarContrato() {
 
-    }
 }

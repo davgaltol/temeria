@@ -11,8 +11,10 @@ public class Mercenario extends EmpleadoExterno{
     @Override
     public void calcularSalario() {
         Scanner sc=new Scanner(System.in);
-        int trabajos=0;
-        System.out.println("El sueldo de este mes del mercenario es " + tarifa*trabajos);
+        int dias=0;
+        System.out.println("¿Cuantos días ha trabajado en este encargo?");
+        dias=sc.nextInt();
+        System.out.println("El sueldo de este mes del mercenario es " + tarifa*dias);
     }
 
     @Override
@@ -20,8 +22,4 @@ public class Mercenario extends EmpleadoExterno{
         System.out.println("El mercenario " + nombre + " está trabajando y ha aceptado encargo de escolta " );
     }
 
-    @Override
-    public void renovarContrato() {
-
-    }
 }

@@ -12,18 +12,8 @@ public class Mago extends EmpleadoCorte{
     }
 
     @Override
-    public void solicitarVacaciones() {
-
-        System.out.println("El mago " + nombre + " ha solicitado vacaciones.");
-    }
-    @Override
-    public void calcularSalario() {
-
-        System.out.println("El sueldo es " + (sueldoFijo));
-    }
-    @Override
     public void trabajar() {
-        System.out.println("El mago " + nombre + " está trabajando y conjura hechizos ");
+        System.out.println("El mago " + nombre + " de nivel " + nivel + "está trabajando y conjura hechizos");
     }
 
 }
